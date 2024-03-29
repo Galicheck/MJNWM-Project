@@ -27,23 +27,42 @@ Następnie spróbujemy wyłonić najlepszy model i zastosować go do danych czas
 
 ## Informacje o zbiorze danych
 
-Zbiór danych zawiera następujące 16 kolumn:
-- **Date**: data,
-- **AMZN_Open**: cena, po której akcje Amazon.com były notowane po raz pierwszy po otwarciu rynku (w USD),
-- **AMZN_High**: najwyższa cena akcji Amazon.com w dniu handlowym (w USD),
-- **AMZN_Low**: najniższa cena akcji Amazon.com w dniu handlowym (w USD),
-- **AMZN_Close**: ostatnia cena akcji Amazon.com po zamknięciu rynku (w USD),
-- **AMZN_Volume**: całkowita liczba akcji Amazon.com będących w obrocie w ciągu dnia handlowego (w USD),
-- **sp100_Open**: zbiorczy punkt startu akcji indeksu S&P 100 (w USD),
-- **sp100_High**: szczytowy poziom wyników indeksu S&P 100 w trakcie sesji giełdowej (w USD),
-- **sp100_Low**: najniższy punkt notowań indeksu S&P 100 podczas sesji giełdowej (w USD),
-- **sp100_Close**: zbiorczy punkt końcowy akcji indeksu S&P 100 (w USD),
-- **sp100_Volume**: ogólny poziom aktywności i zainteresowania obrotem akcjami wchodzącymi w skład indeksu S&P 100 (w USD),
-- **Inflation_USA**: średnia roczna stopa inflacji w USA (w %),
-- **Inflation_UE**: średnia roczna stopa inflacji w Unii Europejskiej (w %),
-- **Inflation_World**: średnia roczna stopa inflacji na świecie (w %),
-- **Revenue_Billions**: przychody Amazon.com (w miliardach USD).
+Zbiór danych zawiera następujące 20 kolumn:
+- **Data**,
+- **AMZN_Open**: Cena, po której akcje Amazon.com były notowane po raz pierwszy po otwarciu rynku (w USD),
+- **AMZN_High**: Najwyższa cena, po której notowano akcje Amazon.com w dniu handlowym (w USD),
+- **AMZN_Low**: Najniższa cena, po której notowano akcje Amazon.com w dniu handlowym (w USD),
+- **AMZN_Close**: Cena, po której ostatnio notowano akcje Amazon.com po zamknięciu rynku (w USD),
+- **AMZN_Volume**: Całkowita liczba akcji Amazon.com będących w obrocie w ciągu dnia handlowego (w USD),
+- **SP100_Open**: Zbiorczy punkt startu akcji indeksu S&P 100 (w USD),
+- **SP100_High**: Szczytowy poziom notowań indeksu S&P 100 w trakcie sesji giełdowej (w USD),
+- **SP100_Low**: Najniższy punkt notowań indeksu S&P 100 podczas sesji giełdowej (w USD),
+- **SP100_Close**: Zbiorczy punkt końcowy akcji indeksu S&P 100 (w USD),
+- **SP100_Volume**: Ogólny poziom aktywności i zainteresowania obrotem akcjami wchodzącymi w skład indeksu S&P 100 (w USD),
+- **Inflation_USA**: Średnia roczna stopa inflacji w USA (w %),
+- **Inflation_UE**: Średnioroczna stopa inflacji w Unii Europejskiej (w %),
+- **Inflation_World**: Średnia roczna stopa inflacji na świecie (w %),
+- **Revenue_Billions**: Przychody Amazon.com (w miliardach USD),
+- **GCD**: Produkt Krajowy Brutto (w miliardach USD),
+- **CCI Total**: Wskaźnik zaufania konsumentów ogółem (powyżej 100 – wzrost zaufania konsumentów; poniżej 100 – spadek),
+- **CCI USA**: Wskaźnik zaufania konsumentów w USA,
+- **CCI Europe**: Wskaźnik zaufania konsumentów w Europie,
+- **Unemployment_USA**: Stopa bezrobocia w USA (w %).
 
 ## Jak uruchomić ten projekt
 
-Po sklonowaniu repozytorium uruchom plik Project_AMZN_prediction.ipynb w Jupyter Notebook.
+Po sklonowaniu repozytorium skonfiguruj środowisko wirtualne i zainstaluj niezbędne wymagania:
+```
+python -m venv venv 
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Następnie uruchom Jupyter Notebook wpisując:
+```
+jupyter notebook
+```
+
+Otwórz i uruchom plik `project_AMZN_prediction.ipynb`.
+
+
