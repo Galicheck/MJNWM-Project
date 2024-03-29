@@ -27,7 +27,7 @@ Następnie spróbujemy wyłonić najlepszy model i zastosować go do danych czas
 
 ## Informacje o zbiorze danych
 
-Zbiór danych zawiera następujące 20 kolumn:
+Zbiór danych `final_data.csv` zawiera następujące 20 kolumn:
 - **Date**: Data,
 - **AMZN_Open**: Cena, po której akcje Amazon.com były notowane po raz pierwszy po otwarciu rynku (w USD),
 - **AMZN_High**: Najwyższa cena, po której notowano akcje Amazon.com w dniu handlowym (w USD),
