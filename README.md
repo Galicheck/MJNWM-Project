@@ -44,9 +44,9 @@ Zbiór danych `final_data.csv` zawiera następujące 20 kolumn:
 - **Inflation_World**: Średnia roczna stopa inflacji na świecie (w %),
 - **Revenue_Billions**: Przychody Amazon.com (w miliardach USD),
 - **GCD**: Produkt Krajowy Brutto (w miliardach USD),
-- **CCI Total**: Wskaźnik zaufania konsumentów ogółem (powyżej 100 – wzrost zaufania konsumentów; poniżej 100 – spadek),
-- **CCI USA**: Wskaźnik zaufania konsumentów w USA,
-- **CCI Europe**: Wskaźnik zaufania konsumentów w Europie,
+- **CCI Total**: Wskaźnik pewności konsumenta ogółem (powyżej 100 – konsumenci są skłonni do przyszłych wydatków/zakupów; poniżej 100 – konsumenci ograniczą swoje wydatki),
+- **CCI USA**: Wskaźnik pewności konsumenta w USA,
+- **CCI Europe**: Wskaźnik pewności konsumenta w Europie,
 - **Unemployment_USA**: Stopa bezrobocia w USA (w %).
 
 ## Jak uruchomić ten projekt
