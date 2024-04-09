@@ -27,7 +27,7 @@ Następnie spróbujemy wyłonić najlepszy model i zastosować go do danych czas
 
 ## Informacje o zbiorze danych
 
-Zbiór danych `final_data.csv` zawiera następujące 20 kolumn:
+Zbiór danych `final_data.csv` zawiera następujące 24 kolumny:
 - **Date**: Data,
 - **AMZN_Open**: Cena, po której akcje Amazon.com były notowane po raz pierwszy po otwarciu rynku (w USD),
 - **AMZN_High**: Najwyższa cena, po której notowano akcje Amazon.com w dniu handlowym (w USD),
@@ -47,7 +47,13 @@ Zbiór danych `final_data.csv` zawiera następujące 20 kolumn:
 - **CCI Total**: Wskaźnik pewności konsumenta ogółem (powyżej 100 – konsumenci są skłonni do przyszłych wydatków/zakupów; poniżej 100 – konsumenci ograniczą swoje wydatki),
 - **CCI USA**: Wskaźnik pewności konsumenta w USA,
 - **CCI Europe**: Wskaźnik pewności konsumenta w Europie,
-- **Unemployment_USA**: Stopa bezrobocia w USA (w %).
+- **Unemployment_USA**: Stopa bezrobocia w USA (w %),
+- **BAC_Close**: Ostatnia cena akcji Bank of America Corporation po zamknięciu rynku (w USD),
+- **JPM_Close**: Cena, po której ostatnio notowano akcje J.P. Morgan Chase & Co. po zamknięciu rynku (w USD),
+- **Citigroup_Close**: Cena, po której ostatnio notowano akcje Citigroup w chwili zamknięcia rynku (w USD),
+- **WFC_Close**: Ostatnia cena akcji Wells Fargo & Company w chwili zamknięcia rynku (w USD).
+
+Zmienną przewidywaną jest **AMZN_Close**.
 
 ## Jak uruchomić ten projekt
 
