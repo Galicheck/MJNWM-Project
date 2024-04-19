@@ -7,10 +7,13 @@ Do predykcji wykorzystamy między innymi:
 - SVM (maszyny wektorów nośnych),
 - regresję Random Forest,
 - regresor wzmacniający gradient,
-- LSTM (pamięć długo-krótkoterminową),
+- ~~LSTM (pamięć długo-krótkoterminową)~~,
 - GRU (bramkowane jednostki cykliczne),
-- CNN (konwolucyjną sieć neuronową),
-- ARIMA (zintegrowaną średnią ruchomą autoregresyjną).
+- ~~CNN (konwolucyjną sieć neuronową)~~,
+- ARIMA (zintegrowaną średnią ruchomą autoregresyjną),
+- wygładzanie wykładnicze,
+- LOWESS (lokalnie ważone wygładzanie wykresu rozrzutu),
+- model Kernel Weight.
 
 Następnie spróbujemy wyłonić najlepszy model i zastosować go do danych czasu rzeczywistego (styczeń-maj 2024).
 
