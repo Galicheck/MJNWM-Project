@@ -13,7 +13,7 @@ Do predykcji wykorzystamy między innymi:
 - ARIMA (zintegrowaną średnią ruchomą autoregresyjną),
 - wygładzanie wykładnicze,
 - LOWESS (lokalnie ważone wygładzanie wykresu rozrzutu),
-- model Kernel Weight.
+- regresję Kernel Weight.
 
 Następnie spróbujemy wyłonić najlepszy model i zastosować go do danych czasu rzeczywistego (styczeń-maj 2024).
 
